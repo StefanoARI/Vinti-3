@@ -1,0 +1,6 @@
+{
+  "name": "Nicole Parrucchieri & Atelier",
+  "description": "Salone di bellezza e hair couture specializzato in Balayage su misura, Acconciature Sposa e trattamenti rigeneranti per capelli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
