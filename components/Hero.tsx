@@ -125,7 +125,7 @@ export default function Hero({ onSelectService, onOpenBooking }: HeroProps) {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-[#e7dfd5] bg-white group">
                 <div className="relative aspect-[4/5] w-full">
                   <Image
-                    src="/images/balayage.jpg"
+                    src="https://www.nicolevinti.it/uploads/image/homepage-banner.jpg"
                     alt="Nicole Parrucchieri Milano - Balayage Caramello e Schiariture Naturali"
                     fill
                     sizes="(max-width: 768px) 100vw, 500px"
@@ -164,7 +164,7 @@ export default function Hero({ onSelectService, onOpenBooking }: HeroProps) {
                 <div className="flex items-center gap-3">
                   <div className="relative w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-stone-200">
                     <Image
-                      src="/images/bridal-hair.jpg"
+                      src="https://www.nicolevinti.it/uploads/image/wedding-img1.jpg"
                       alt="Acconciatura Sposa Chignon Nicole Parrucchieri"
                       fill
                       sizes="48px"

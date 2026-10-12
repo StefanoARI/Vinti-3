@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Phone, MessageCircle, Clock, Menu, X, BarChart3, Sparkles } from 'lucide-react';
 import { SALON_INFO } from '../lib/data';
 import { trackEvent } from '../lib/analytics';
@@ -107,19 +108,19 @@ export default function Navbar({ onOpenAnalytics, onOpenBooking }: NavbarProps) 
           <a
             id="brand-logo-link"
             href="#"
-            className="flex flex-col group cursor-pointer"
+            className="flex items-center gap-2 group cursor-pointer"
           >
-            <div className="flex items-center gap-1.5">
-              <span className="font-serif text-xl sm:text-2xl font-semibold tracking-wider text-[#1c1917] group-hover:text-[#b07d48] transition-colors">
-                NICOLE
-              </span>
-              <span className="text-xs uppercase tracking-widest text-[#b07d48] font-medium border-l border-[#d4a373] pl-1.5 hidden xs:inline">
-                Atelier
-              </span>
+            <div className="relative h-10 sm:h-12 w-36 sm:w-48">
+              <Image
+                src="https://www.nicolevinti.it/images/logo.png"
+                alt="Nicole Parrucchieri & Atelier Milano"
+                fill
+                sizes="190px"
+                className="object-contain object-left"
+                priority
+                referrerPolicy="no-referrer"
+              />
             </div>
-            <span className="text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-stone-500 font-light -mt-0.5">
-              Parrucchieri • Milano
-            </span>
           </a>
 
           {/* Desktop Nav Links */}

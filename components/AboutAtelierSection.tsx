@@ -17,7 +17,7 @@ export default function AboutAtelierSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-[#e8ded0]">
               <div className="relative aspect-[16/10] w-full">
                 <Image
-                  src="/images/salon-interior.jpg"
+                  src="https://www.nicolevinti.it/uploads/image/concept-2_1.jpg"
                   alt="Interno Nicole Parrucchieri & Atelier Milano"
                   fill
                   sizes="(max-width: 1024px) 100vw, 600px"
@@ -30,7 +30,7 @@ export default function AboutAtelierSection() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-xl overflow-hidden shadow-md border border-[#e8ded0] aspect-[4/3]">
                 <Image
-                  src="/images/spa-wash.jpg"
+                  src="https://www.nicolevinti.it/uploads/image/concept-4_1.jpg"
                   alt="Area Lavatesta Spa Nicole Parrucchieri"
                   fill
                   sizes="300px"
@@ -44,7 +44,7 @@ export default function AboutAtelierSection() {
 
               <div className="relative rounded-xl overflow-hidden shadow-md border border-[#e8ded0] aspect-[4/3]">
                 <Image
-                  src="/images/haircut-styling.jpg"
+                  src="https://www.nicolevinti.it/uploads/image/concept-5_1.jpg"
                   alt="Styling e Taglio Sartoriale"
                   fill
                   sizes="300px"
